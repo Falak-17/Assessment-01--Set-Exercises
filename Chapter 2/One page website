@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control Z</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#Overview">Overview</a></li>
+            <li><a href="#Cast">Cast</a></li>
+            <li><a href="#Characters">Characters</a></li>
+            <li><a href="#Reviews">Reviews</a></li>
+        </ul>
+    </nav>
+    
+        <h1>Control Z</h1>
+    
+    <section id="overview" class="section">
+        <h2>Overview</h2>
+        <p>Control Z follows Sofia, a socially distant but sharp student, as she investigates a hacker exposing student's secrets at El Colegio Nacional, causing chaos, betrayals, and confrontations that test friendships, loyalty, and hidden pasts in the school.</p>
+        <a href="https://www.netflix.com/ae-en/title/81021245" target="_blank" class="button"> Click to here for official website</a>
+    </section>
+    
+    <section id="cast" class="section">
+        <h2>Cast & Creative Team</h2>
+        <p>Creators: Carlos Quintanilla Sakar, Adriana Pelusi and Miguel Garcia Moreno</p>
+        <p>Cast: Ana Valeria, Fiona Palomo, Yankel Steven, Zion Moreno, Marcena Garcia, Luis Curiel, Michael Ronda and more.</p>
+    </section>
+    
+    <section id="characters" class="section">
+        <h2>Characters</h2>
+        <ul>
+            <li> Sofía Herrera --- A highly observant but socially distant student determined to uncover the hacker. </li>
+            <li> Javier Williams --- A new student and former soccer star who befriends Sofía and helps her investigation. </li>
+            <li> Raúl León --- A wealthy and charming student with a mysterious side, hiding secrets of his own. </li>
+            <li> Natalia Alexander --- A popular girl obsessed with social status, whose life spirals due to financial problems. </li>
+            <li> María Alexander --- Natalia’s sister, who struggles with self-esteem issues and a toxic relationship. </li>
+            <li> Isabela de la Fuente --- A model student and trans woman whose secret is publicly exposed. </li>
+            <li> Luis Navarro --- A quiet, artistic student who becomes a target of bullying. </li>
+        </ul>
+    </section>
+    
+    <section id="reviews" class="section">
+        <h2>Reviews</h2>
+        <p>"This is a very good show with a very interesting plot. I can totally see something like this happening in todays world. Where everyone has their dirty and untold secrets on their phone and all it takes to bring it to light is a hacker." - Natalia</p>
+        <p>"The suspense just keeps you on your toes! It has a mixture of teen drama and secrets being revealed. I've never seen such a suspenseful show." - Soliana Tassaw</p>
+    </section>
+
+</body>
+</html>
