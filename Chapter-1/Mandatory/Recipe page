@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chocolate Cake Recipe</title>
+    
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+    <!-- Title of the cake -->
+    <article class="box">
+        <pre><h1>            CHOCOLATE CAKE              </h1></pre>
+        <!-- Description of the chocolate cake -->
+        <p>This is a rich, moist chocolate cake with a deep, decadent chocolate flavor and a tender, irresistibly soft texture. It's a showstopper when served, and with its perfect texture and delicious flavor, this chocolate cake is sure to satisfy any chocolate lover's dreams!</p>
+    </article>
+
+    <!-- Ingredients List -->
+    <article class="box"> 
+        <h2>Ingredients:</h2>
+        <ul>
+            <li>1 ¾ cups all-purpose flour</li>
+            <li>1 ½ teaspoons baking powder</li>
+            <li>½ teaspoon baking soda</li>
+            <li>½ teaspoon salt</li>
+            <li>1 cup unsweetened cocoa powder</li>
+            <li>1 ½ cups granulated sugar</li>
+            <li>2 large eggs</li>
+            <li>1 teaspoon vanilla extract</li>
+            <li>½ cup vegetable oil</li>
+            <li>1 cup whole milk</li>
+            <li>½ cup boiling water</li>
+        </ul>
+
+        <!-- Instructions -->
+        <h2>Method:</h2>
+        <ol>
+            <li>Preheat the oven to 350°F (175°C).</li>
+            <li>Grease and flour two 9-inch round cake pans or line with parchment paper.</li>
+            <li>In a large bowl, mix all the dry ingredients.</li>
+            <li>Add the eggs, vanilla extract, and vegetable oil to the dry ingredients.</li>
+            <li>Mix until combined.</li>
+            <li>Slowly add the milk while continuing to mix.</li>
+            <li>Carefully stir in the boiling water.</li>
+            <li>Pour the batter into the prepared pans.</li>
+            <li>Divide the batter evenly between the two cake pans.</li>
+            <li>Bake for 30-35 minutes.</li>
+            <li>Let the cakes cool in the pans for about 10 minutes before removing.</li>
+        </ol>
+    </article>
+
+</body>
+</html>
