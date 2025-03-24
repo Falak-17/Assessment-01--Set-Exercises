@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS Quick Reference Guide</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <header>
+        <h1>HTML & CSS Reference Guide</h1>
+    </header>
+    
+    <section>
+        <h2>HTML Tags</h2>
+        <article>
+            <h3>1. &lt;h1&gt; - Heading</h3>
+            <p>It defines headings.</p>
+            <pre><code>&lt;h1&gt;This is a heading&lt;/h1&gt;</code></pre>
+        </article>
+        
+        <article>
+            <h3>2. &lt;p&gt; - Paragraph</h3>
+            <p>It defines a paragraph of text.</p>
+            <pre><code>&lt;p&gt;This is a paragraph.&lt;/p&gt;</code></pre>
+        </article>
+        
+        <article>
+            <h3>3. &lt;a&gt; - Anchor</h3>
+            <p>It creates a hyperlink.</p>
+            <pre><code>&lt;a href="https://example.com"&gt;Visit Example&lt;/a&gt;</code></pre>
+        </article>
+        
+        <article>
+            <h3>4. &lt;img&gt; - Image</h3>
+            <p>It displays an image.</p>
+            <pre><code>&lt;img src="image.jpg" alt="Description"&gt;</code></pre>
+        </article>
+        
+        <article>
+            <h3>5. &lt;ul&gt; - Unordered List</h3>
+            <p>It creates unordered list.</p>
+            <pre><code>
+&lt;ul&gt;
+    &lt;li&gt;Item 1&lt;/li&gt;
+    &lt;li&gt;Item 2&lt;/li&gt;
+    &lt;li&gt;Item 3&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+        </article>
+
+        <article>
+            <h3>6. &lt;ol&gt; - Ordered List</h3>
+            <p>It creates ordered list.</p>
+            <pre><code>
+&lt;ol&gt;
+    &lt;li&gt; 1. Item 1&lt;/li&gt;
+    &lt;li&gt; 2. Item 2&lt;/li&gt;
+    &lt;li&gt; 3. Item 3&lt;/li&gt;
+&lt;/ol&gt;</code></pre>
+        </article>
+
+        <article>
+            <h3>7. &lt;hr&gt; - Horizontal Lines</h3>
+            <p>Inserts a horizontal line.</p>
+            <pre><code> ___________________________________________ </code></pre>
+        </article>
+
+        <article>
+            <h3>8. &lt;b&gt; - Bold</h3>
+            <p>Bolds the text.</p>
+        </article>
+
+        <article>
+            <h3>9. &lt;audio&gt; - Audio</h3>
+            <p>Embeds an audio file on a webpage.</p>
+            <pre><code>
+&lt;audio controls&gt;
+    &lt;source src="audio.mp3" type="audio/mpeg"&gt;
+    Your browser does not support the audio tag.
+&lt;/audio&gt;
+            </code></pre>
+        </article>
+
+        <article>
+            <h3>10. &lt;video&gt; - Video</h3>
+            <p>Embeds a video file on a webpage.</p>
+            <pre><code>
+&lt;video width="320" height="240" controls&gt;
+    &lt;source src="video.mp4" type="video/mp4"&gt;
+    Your browser does not support the video tag.
+&lt;/video&gt;
+            </code></pre>
+        </article>
+    
+    <section>
+        <h2>CSS Properties</h2>
+        <article>
+            <h3>1. color</h3>
+            <p>Sets the color of text.</p>
+            <pre><code>{ color: blue; }</code></pre>
+        </article>
+        
+        <article>
+            <h3>2. background-color</h3>
+            <p>Sets the background color of an element.</p>
+            <pre><code>body { background-color: Black; }</code></pre>
+        </article>
+        
+        <article>
+            <h3>3. font-size</h3>
+            <p>Defines the size of the font.</p>
+            <pre><code>h1 { font-size: 24px; }</code></pre>
+        </article>
+        
+        <article>
+            <h3>4. margin</h3>
+            <p>Sets the margin around an element.</p>
+            <pre><code>div { margin: 10px; }</code></pre>
+        </article>
+        
+        <article>
+            <h3>5. padding</h3>
+            <p>Sets the padding inside an element.</p>
+            <pre><code>p { padding: 5px; }</code></pre>
+        </article>
+        
+        <article>
+            <h3>6. border</h3>
+            <p>Defines a border around an element.</p>
+            <pre><code>div { border: 2px solid black; }</code></pre>
+        </article>
+        
+        <article>
+            <h3>7. background-image</h3>
+            <p>Sets the background image.</p>
+            <pre><code>.box { background-image: url("image.jpg"); }</code></pre>
+        </article>
+        
+        <article>
+            <h3>8. text-align</h3>
+            <p>Aligns text within an element.</p>
+            <pre><code>h1 { text-align: center; }</code></pre>
+        </article>
+    </section>
+</body>
+</html>
