@@ -1,51 +1,41 @@
-nav { 
-    background-color: black;                                          /* Sets background color to black */
-    padding: 15px;                                                    /* Adds padding inside the navigation bar */
-    text-align: center;                                               /* Centers the text */
-    font-size: 20px;                                                  /* Sets the font size */
-    font-family: 'Times New Roman', Times, serif;                     /* Specifies the font */
-    }
+body {color: black;
+      font-size: 17px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-image: url("Image\ 1.webp");                                          /* Ensure correct path */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      margin: 0;
+      padding: 20px;}
 
-body { 
-    color: whitesmoke;                                                /* Sets text color to a light grayish white */
-    background-color: black;                                          /* Sets background color to black */
-    margin: 0;                                                        /* Removes default margin */
-    font-family: Arial, sans-serif;                                   /* Specifies a readable sans-serif font */
-     }
+article {text-align: justify;
+         width: 80%;                                                                   /* Set width */
+         max-width: 900px;                                                             /* Limit maximum width */
+         margin: 20px auto;                                                            /* Center the article */
+         margin: 20px auto;                                                            /* Center the article */
+         margin: 20px auto;                                                            /* Center the article */
+         padding: 20px;  
+         margin: 20px auto;                                                            /* Center the article */
+         background: rgba(255, 255, 255, 0.8);                                         /* Light background for readability */
+         margin: 20px auto;                                                            /* Center the article */
+         border-radius: 10px;}
 
-h1 { 
-    color: red;                                                        /* Sets text color to red */
-    font-size: 32px;                                                   /* Sets font size */
-    font-family: 'Times New Roman', Times, serif;                      /* Specifies the font */
-    text-align: center;                                                /* Centers the text */
-    text-decoration: wavy;                                             /* Applies a wavy text decoration (Note: not fully supported in all browsers) */
-   }
+h1 {color: darkslategrey;
+    font-size: 42px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;}
 
-h2 { 
-    color: yellow;                                                    /* Sets text color to yellow */
-    font-size: 20px;                                                  /* Sets font size */
-    font-family: 'Times New Roman', Times, serif;                     /* Specifies the font */
-   }
+h2 {color: chocolate;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;}
 
-footer { 
-    background-color: black;                                          /* Sets footer background to black */
-    color: whitesmoke;                                                /* Sets text color to white */
-    text-align: center;                                               /* Centers the text */
-    padding: 10px;                                                    /* Adds padding inside the footer */
-    font-family: Arial, Helvetica, sans-serif;                        /* Specifies the font */
-       }
+ul, ol {margin-left: 20px;}
 
-.box { 
-    border: 5px solid red;                                            /* Creates a red border with a thickness of 5px */
-    padding: 20px;                                                    /* Adds padding inside the box */
-    width: 96%;                                                       /* Makes the box responsive, taking up 96% of available width */
-    max-width: 1700px;                                                /* Ensures the box does not exceed 1700px in width */
-    background-image: url("image 1.png");                             /* Sets the background image */
-    background-repeat: no-repeat;                                     /* Prevents the image from repeating */
-    background-size: cover;                                           /* Ensures the image covers the entire box */
-    background-position: center;                                      /* Centers the background image */
-    border-radius: 25px;                                              /* Rounds the corners of the box */
-    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1);                      /* Adds a subtle shadow for depth */
-    color: white;                                                     /* Sets text color to white */
-    font-size: 16px;                                                  /* Sets font size */
-    }
+.box {border: 3px solid white;
+      padding: 15px;
+      width: 80%;
+      max-width: 1800px;
+      height: auto;
+      background: rgba(255, 255, 255, 0.9);                                            /* Light background to improve readability */
+      border-radius: 10px;
+      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);}
