@@ -13,7 +13,8 @@
 <header>
     <nav>
         <ul>
-            <h1>STRANGER THINGS</h1><pre><a href="#Overview">Overview</a>                <a href="#Cast">Cast</a>                <a href="#Characters">Characters</a>                <a href="#Reviews">Reviews</a></pre>
+            <h1>STRANGER THINGS</h1>
+            <pre><a href="#Overview">Overview</a>                <a href="#Cast">Cast</a>                <a href="#Characters">Characters</a>                <a href="#Reviews">Reviews</a></pre>
         </ul>
     </nav>
 </header>
