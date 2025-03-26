@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stranger Things</title>
+    <link rel="stylesheet" href="styles.css">
+<style>
+body {  background-image: url(image\ 4.webp);                                     /* Uses 'image 4.webp' as the background */
+     }
+
+h2 { color: whitesmoke;                                                         /* Light color for better contrast on dark backgrounds */
+     font-size: 30px;                                                             /* Sets size of the heading*/
+   }
+
+.text-box { position: absolute;                                                   /* Positions the box relative to the screen */
+            top: 25%;                                                             /* Moves the box higher to prevent overlap with actors' faces */
+            left: 50%;                                                            /* Centers the box horizontally */
+            transform: translateX(-50%);                                          /* Ensures precise centering */
+            background: rgba(0, 0, 0, 0.6);                                     /* Semi-transparent black background for readability */
+            color: white;                                                       /* White text for better contrast */
+            padding: 15px 25px;                                                   /* Adds spacing inside the box */
+            border-radius: 8px;                                                   /* Rounds the corners of the box */
+            text-align: center;                                                   /* Centers the text inside the box */
+            font-size: 18px;                                                      /* Sets a readable font size */
+            max-width: 600px;                                                     /* Limits the width of the box to prevent overflow */  
+          }
+
+.text-box h2 { font-size: 22px;                                                   /* Slightly larger font size for emphasis */
+               margin-bottom: 10px;                                               /* Adds spacing below the heading */
+             }
+
+.text-box ul { list-style: none;                                                  /* Removes bullet points */
+               padding: 0;                                                        /* Removes padding for cleaner layout */
+               margin: 0;                                                         /* Removes default margin */ 
+               font-size: 22px;                                                   /* Sets size of the text*/
+             }
+
+.text-box ul li { margin: 5x 0;                                                   /* Adds spacing between list items for better readability */
+                }
+
+</style>
+</head>
+<body>
+
+    <main> 
+        <div class="text-box">
+            <h2>Created by: The Duffer Brothers</h2>
+            <p><strong>Starring:</strong></p>
+            <ul>
+                <li>Winona Ryder</li>
+                <li>David Harbour</li>
+                <li>Millie Bobby Brown</li>
+                <li>Finn Wolfhard</li>
+                <li>Gaten Matarazzo</li>
+                <li>Caleb McLaughlin</li>
+                <li>Natalia Dyer</li>
+                <li>Charlie Heaton</li>
+                <li>Sadie Sink</li>
+                <li>Cara Buono and more...</li>
+            </ul>
+        </div>
+    </main>
+</body>
+</html>
