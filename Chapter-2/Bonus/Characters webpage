@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stranger Things</title>
+    <link rel="stylesheet" href="styles.css">
+<style>
+body { background-image: url(image\ 3.avif);                                                /* Sets the background image */
+       background-size: cover;                                                              /* Ensures the image covers the entire background */
+       background-position: center;                                                         /* Centers the background image */
+       background-attachment: fixed;                                                        /* Keeps the background fixed while scrolling */
+       font-family: 'Arial', sans-serif;                                                    /* Sets the font for the entire page */
+       color: white;                                                                      /* Sets text color to white */
+       text-align: center;                                                                  /* Centers text alignment */
+     }
+
+h1 { font-size: 36px;                                                                       /* Sets size of the heading */
+   }
+
+header { background: rgba(0, 0, 0, 0.8);                                                  /* Adds a semi-transparent black background */
+         padding: 20px;                                                                     /* Adds spacing inside the header */
+         font-size: 28px;                                                                   /* Increases font size */
+         text-transform: uppercase;                                                         /* Converts text to uppercase */
+         text-shadow: 2px 2px 5px red;                                                    /* Adds a red text shadow effect */
+       }
+
+.section { background: rgba(0, 0, 0, 0.7);                                                /* Adds a semi-transparent black background */
+           max-width: 800px;                                                                /* Limits section width */
+           margin: 50px auto;                                                               /* Centers the section with margin */
+           padding: 20px;                                                                   /* Adds padding inside the section */
+           border-radius: 10px;                                                             /* Rounds the section corners */
+           box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);                                     /* Adds a subtle shadow effect */
+         }
+
+.section ul { list-style: none;                                                             /* Removes default bullet points */
+            }
+
+.section ul li { padding: 10px;                                                             /* Adds space around list items */
+                 font-size: 18px;                                                           /* Sets font size for list items */
+                 transition: 0.3s;                                                          /* Smooth transition for hover effect */
+               }
+
+.section ul li:hover { color: red;                                                        /* Changes text color to red when hovered */
+                       transform: scale(1.05);                                              /* Slightly increases the size when hovered */
+                     }
+
+footer { background: rgba(0, 0, 0, 0.8);                                                  /* Adds a semi-transparent black background */
+         padding: 15px;                                                                     /* Adds padding inside the footer */
+         margin-top: 50px;                                                                  /* Creates space above the footer */
+         font-size: 14px;                                                                   /* Sets font size for the footer */
+       }
+
+</style>
+</head>
+<body>
+    <main> 
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stranger Things</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Characters</h1>
+    </header>
+
+    <main>
+        <section id="characters" class="section">
+            <ul>
+                <li><strong>Eleven</strong> - A girl with psychokinetic abilities.</li>
+                <li><strong>Mike Wheeler</strong> - A leader of the group of kids.</li>
+                <li><strong>Dustin Henderson</strong> - A smart and fun-loving boy.</li>
+                <li><strong>Lucas Sinclair</strong> - A skeptical but loyal friend.</li>
+                <li><strong>Will Byers</strong> - A boy who gets trapped in the Upside Down.</li>
+                <li><strong>Jim Hopper</strong> - The chief of police in Hawkins.</li>
+                <li><strong>Joyce Byers</strong> - A determined mother who will do anything to protect her sons.</li>
+                <li><strong>Nancy Wheeler</strong> - A brave and resourceful teenager who seeks the truth.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Stranger Things Fan Page. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
