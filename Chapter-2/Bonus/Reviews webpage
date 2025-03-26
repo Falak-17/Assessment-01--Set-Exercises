@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stranger Things</title>
+    <link rel="stylesheet" href="styles.css">
+<style>
+body { background-image: url(image\ 3.avif);                      /* Set background image */
+       background-size: cover;                                    /* Ensure the image covers the entire viewport */
+       background-position: center;                               /* Center the background image */
+       background-attachment: fixed;                              /* Fix the background image during scrolling */
+       font-family: 'Arial', sans-serif;                          /* Set font style */
+       color: white;                                            /* Set text color */
+       justify-content: center;                                   /* Align content horizontally in the center */
+       align-items: center;                                       /* Align content vertically in the center */
+       height: 100vh;                                             /* Full viewport height */
+       text-align: center;                                        /* Center the text */
+     }
+
+header { background: rgba(0, 0, 0, 0.8);                        /* Semi-transparent black background */
+         padding: 20px;                                           /* Padding inside the header */
+         font-size: 28px;                                         /* Font size for header text */
+         text-transform: uppercase;                               /* Make header text uppercase */
+         text-shadow: 2px 2px 5px red;                          /* Red text shadow effect */
+       }
+
+.section { background: rgba(0, 0, 0, 0.7);                      /* Semi-transparent black background */
+           max-width: 800px;                                      /* Limit the section width */
+           margin: 50px auto;                                     /* Center the section with top/bottom margin */
+           padding: 20px;                                         /* Padding inside the section */
+           border-radius: 10px;                                   /* Rounded corners */
+           box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);           /* Shadow effect around section */
+         }
+
+h2 { font-size: 36px;                                             /* Font size for section headers */
+     margin-bottom: 20px;                                         /* Bottom margin */
+     color: red;                                                /* Red color for the header text */
+     text-transform: uppercase;                                   /* Make section headers uppercase */
+   }
+
+.review { margin-bottom: 20px;                                    /* Bottom margin for each review */
+        }
+
+.review p { font-size: 18px;                                      /* Font size for review text */
+            line-height: 1.5;                                     /* Line height for readability */
+            font-style: italic;                                   /* Italicize review text */
+          }
+
+.review strong { color: red;                                    /* Red color for strong text */
+               }
+
+footer { background: rgba(0, 0, 0, 0.8);                        /* Semi-transparent black background */
+         padding: 15px;                                           /* Padding inside footer */
+         margin-top: 50px;                                        /* Top margin for spacing */
+         font-size: 14px;                                         /* Smaller font size for footer text */
+       }
+
+</style>
+</head>
+<body>
+    <main > 
+        <div>
+            <section id="reviews" class="section">
+                <pre><h2> Reviews</h2></pre>
+                <p>"The plot is super unique, the scenes are thrilling, the character development is amazing, and I cannot stop watching." - Alex Gupta</p>
+                <p>" It is a series that invites viewers to embark on a journey filled with wonder, fear, and ultimately, hope. Stranger Things is a testament to the power of storytelling to transport, inspire, and leave a lasting impact on audiences." - Yamin</p>
+                <p>"Netflix’s Stranger Things is nothing short of a masterpiece, blending supernatural thrills, heartfelt drama, and nostalgic charm into one unforgettable series. From the moment the show begins, it hooks you with its mysterious allure, expertly crafted storytelling, and a perfect balance of suspense and emotional depth."-Cyrus Shameli</p>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
