@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature Photography Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <h1>Nature Photography Gallery</h1>
+        <div class="box">
+            <img src="Forest.jpg" alt="A beautiful green forest with sunlight filtering through the trees" title="Serene Forest Scene">
+            <p class="title">Serene Forest Scene</p>
+            <p class="license">Photo by Unsplash - Free for commercial use.</p>
+        </div>
+        <div class="box">
+            <img src="Camping.jpg" alt="A majestic mountain range with a clear blue sky" title="Majestic Mountain View">
+            <p class="title">Majestic Mountain View</p>
+            <p class="license">Photo by Unsplash - Free for commercial use.</p>
+        </div>
+        <div class="box">
+            <img src="River.jpg" alt="A tranquil lake reflecting the sky and trees around it" title="Tranquil Lake Reflection">
+            <p class="title">Tranquil Lake Reflection</p>
+            <p class="license">Photo by Unsplash - Free for commercial use.</p>
+        </div>
+</body>
+</html>
