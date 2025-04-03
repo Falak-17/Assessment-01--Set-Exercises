@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Plan - Web Development</title>
+    <link rel="stylesheet" href="Bonus styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Web Development Study Plan</h1>
+        <p>Creative Computing Course</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#modules">Modules</a></li>
+            <li><a href="#resources">Resources</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="content-wrapper">
+            <div class="left-column">
+                <h2>Study Plan</h2>
+                <p>Here is the list of modules and topics you need to cover:</p>
+                <ul>
+                    <li><strong>HTML Basics</strong> - Introduction to HTML structure</li>
+                    <li><strong>CSS Styling</strong> - Understanding CSS fundamentals</li>
+                    <li><strong>JavaScript Basics</strong> - Introduction to JS programming</li>
+                    <li><strong>Responsive Design</strong> - Making websites mobile-friendly</li>
+                    <li><strong>Web Accessibility</strong> - Ensuring websites are accessible</li>
+                </ul>
+                <button>Expand Study Plan</button>
+            </div>
+
+            <div class="right-column">
+                <h2>Progress Tracker</h2>
+                <p>Track your progress by marking completed modules:</p>
+                <div class="progress">
+                    <p><input type="checkbox"> HTML Basics</p>
+                    <p><input type="checkbox"> CSS Styling</p>
+                    <p><input type="checkbox"> JavaScript Basics</p>
+                    <p><input type="checkbox"> Responsive Design</p>
+                    <p><input type="checkbox"> Web Accessibility</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Creative Computing Course | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
