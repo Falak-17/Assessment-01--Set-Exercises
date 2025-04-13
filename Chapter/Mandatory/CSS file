@@ -1,0 +1,15 @@
+body, html { height: 100%;
+             display: flex;
+             justify-content: center;               /* Center content horizontally */
+             align-items: center;                   /* Center content vertically */
+             background-color: #000000;             /* Set background color to black */
+           }
+
+.video-container { text-align: center;
+                 }
+
+video { display: block;                             /* Removes default inline behavior, allowing margin: auto to work properly */
+        margin: auto;                               /* Centers the video horizontally within its container */
+        width: "600";                   
+        height: "450"; 
+      }
