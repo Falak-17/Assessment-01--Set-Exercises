@@ -1,0 +1,10 @@
+function calculateTotal()
+{
+  var costInput = document.getElementById("cost");                       // Get the cost per liter from the input box
+  var cost = Number(costInput.value);                                    // Convert it to a number
+  var litersInput = document.getElementById("liters");                   // Get the number of liters from the input box
+  var liters = Number(litersInput.value);                                // Convert it to a number
+  var total = cost * liters;                                             // Multiply cost and liters to get the total
+  var totalDisplay = document.getElementById("total");                   // Get the place on the page where we show the result
+  totalDisplay.textContent = "Total Cost: £" + total.toFixed(2);         // Show the result with a £ sign and 2 decimal places
+}
