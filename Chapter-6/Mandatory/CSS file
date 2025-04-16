@@ -1,0 +1,56 @@
+body { font-family: Arial, sans-serif;                                     /* Use a clean, readable font */
+       background-color: #f0f4f8;                                          /* Light grey background color */
+       margin: 0;                                                          /* Remove default margin around the page */
+       height: 100vh;                                                      /* Set the height to 100% of the viewport */
+       display: flex;                                                      /* Use Flexbox layout */
+       justify-content: center;                                            /* Center content horizontally */
+       align-items: center;                                                /* Center content vertically */
+     }
+
+.calculator-box { background-color: #237a57;                               /* Dark green background */
+                  padding: 30px;                                           /* Equal padding on all sides */
+                  border-radius: 12px;                                     /* Rounded corners */
+                  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);               /* Soft shadow around the box */
+                  width: 320px;                                            /* Fixed width of the box */
+                  text-align: center;                                      /* Center-align all text inside */
+                  color: #000;                                             /* Set default text color to black */
+                }
+
+label { display: block;                                                    /* Each label takes up full width */
+        text-align: left;                                                  /* Align label text to the left */
+        margin: 10px 0 5px;                                                /* Add spacing above and below */
+        font-weight: bold;                                                 /* Make the text bold */
+        color: #fff;                                                       /* Set label color to white */
+      }
+
+input[type="number"] { width: 100%;                                       /* Input stretches full width of the box */
+                       padding: 10px;                                     /* Inner space inside the input */
+                       font-size: 16px;                                   /* Make text inside input readable */
+                       border: 2px solid #ccc;                            /* Light grey border around input */
+                       border-radius: 8px;                                /* Rounded corners on input */
+                       margin-bottom: 15px;                               /* Space below each input field */
+                       box-sizing: border-box;                            /* Includes padding and border in total width */
+                     }
+
+input[type="number"]:focus { border-color: #007bff;                       /* Change border to blue when focused */
+                             outline: none;                               /* Remove the default blue outline */
+                           }
+
+button { padding: 10px 20px;                                              /* Space inside the button */
+         width: 100%;                                                     /* Button stretches full width */
+         background-color: #007bff;                                       /* Blue background color */
+         color: white;                                                    /* White text */
+         font-size: 16px;                                                 /* Font size of button text */
+         border: none;                                                    /* No border */
+         border-radius: 8px;                                              /* Rounded corners */
+         cursor: pointer;                                                 /* Pointer cursor on hover */
+         transition: background-color 0.3s;                               /* Smooth color change on hover */
+       }
+
+button:hover { background-color: #0056b3;                                 /* Darker blue on hover */
+             }
+
+#total { margin-top: 20px;                                                /* Space above the total */
+         font-size: 18px;                                                 /* Slightly bigger text */
+         color: #eee;                                                     /* Light grey text for visibility on green */
+       }
