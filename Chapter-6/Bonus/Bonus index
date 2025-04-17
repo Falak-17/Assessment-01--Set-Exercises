@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RGB Game</title>
+  <link rel="stylesheet" href="Bonus styles.css">
+</head>
+<body>
+  <div class="box">
+
+    <h1>RGB Color Guess</h1>
+    <p id="rgb-display">rgb(181, 36, 42)</p>
+    <div id="options"></div>
+    <p id="message"></p>
+    <p>Lives: <span id="lives">3</span> | Score: <span id="score">0</span></p>
+    <button id="restart" class="hidden">Play Again</button>
+
+  </div>
+
+  <script src="Bonus script.js"></script>
+  
+</body>
+</html>
