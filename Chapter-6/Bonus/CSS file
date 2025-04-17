@@ -1,0 +1,61 @@
+body { margin: 0;                                                      /* Remove space around the page */
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   /* Set the font */
+       display: flex;                                                  /* Use flexbox layout */
+       justify-content: center;                                        /* Center items left to right */
+       align-items: center;                                            /* Center items top to bottom */
+       min-height: 100vh;                                              /* Full screen height */
+       background-color: #f0f0f0;                                      /* Light gray background */
+       text-align: center;                                             /* Center the text */
+     }
+
+.box { width: 100%;                                                    /* Take full width */
+       max-width: 400px;                                               /* But not more than 400px */
+       padding: 30px;                                                  /* Add space inside the box */
+       background-color: white;                                        /* White background */
+       border-radius: 10px;                                            /* Rounded corners */
+       box-shadow: 0 2px 10px rgba(0,0,0,0.1);                         /* Light shadow */
+     }
+
+h1 { margin: 0 0 15px 0;                                               /* Space below the title */
+     font-size: 24px;                                                  /* Bigger text size */
+   }
+
+#rgb-displ { font-size: 20px;                                          /* Big text */
+             font-weight: bold;                                        /* Bold text */
+             margin: 0 0 25px 0;                                       /* Space below */
+             color: #333;                                              /* Dark gray color */
+           }
+
+#options { display: flex;                                              /* Line up color boxes */
+           justify-content: center;                                    /* Center them */
+           gap: 15px;                                                  /* Space between boxes */
+           margin: 0 0 25px 0;                                         /* Space below */
+         }
+
+.color-box { width: 80px;                                              /* Box width */
+             height: 80px;                                             /* Box height */
+             border-radius: 8px;                                       /* Rounded corners */
+             cursor: pointer;                                          /* Show pointer on hover */
+             border: 2px solid #eee;                                   /* Light border */
+           }
+
+#message { margin: 0 0 15px 0;                                         /* Space below */
+           min-height: 20px;                                           /* Make sure space stays even when empty */
+           font-weight: bold;                                          /* Bold message */
+         }
+
+#restart { margin-top: 20px;                                           /* Space on top */
+           padding: 10px 20px;                                         /* Space inside the button */
+           background-color: #4CAF50;                                  /* Green color */
+           color: white;                                               /* White text */
+           border: none;                                               /* No border */
+           border-radius: 5px;                                         /* Rounded corners */
+           cursor: pointer;                                            /* Pointer on hover */
+           font-size: 16px;                                            /* Text size */
+         }
+
+#restart:hover { background-color: #45a049;                            /* Darker green when hovered */
+               }
+
+.hidden { display: none;                                               /* Hide the element */
+        }
