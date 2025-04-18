@@ -1,0 +1,54 @@
+.wrapper { display: flex;                                /* Arrange children side-by-side */
+           flex-wrap: wrap;                              /* Allow wrapping on smaller screens */
+           gap: 20px;                                    /* Space between child elements */
+           padding: 20px;                                /* Space inside the wrapper */
+           justify-content: center;                      /* Center items horizontally */
+         }
+
+.audio-section { flex: 2;                                /* Take up 2 parts of the available space */
+                 min-width: 300px;                       /* Ensure it doesn’t get too small */
+               }
+
+.tts-section { flex: 1;                                  /* Take up 1 part of the space */
+               min-width: 280px;                         /* Minimum width */
+               background: rgba(255, 255, 255, 0.9);     /* Slightly see-through white background */
+               padding: 20px;                            /* Space inside the box */
+               border-radius: 15px;                      /* Rounded corners */
+               color: black;                             /* Text color */
+             }
+
+.tts-section textarea { width: 100%;                     /* Full width of the container */
+                        height: 120px;                   /* Set height */
+                        padding: 10px;                   /* Space inside the textarea */
+                        font-size: 1rem;                 /* Readable font size */
+                        margin-top: 10px;                /* Space above the textarea */
+                      }
+
+.tts-section button { width: 100%;                       /* Full width */
+                      padding: 10px;                     /* Space inside the button */
+                      margin-top: 10px;                  /* Space above the button */
+                      background: #333;                  /* Dark background */
+                      color: white;                      /* White text */
+                      border: none;                      /* No border */
+                      border-radius: 8px;                /* Slightly rounded corners */
+                    }
+
+.tts-section .note { font-size: 0.85rem;                 /* Smaller font */
+                     color: #444;                        /* Slightly lighter text */
+                     margin-top: 10px;                   /* Space above the note */
+                   }
+
+.nav-buttons { display: flex;                            /* Arrange nav buttons side-by-side */
+               justify-content: center;                  /* Center them horizontally */
+               gap: 20px;                                /* Space between buttons */
+               margin-top: 20px;                         /* Space above the button row */
+             }
+
+.nav { padding: 10px 20px;                               /* Space inside the button */
+       font-size: 1rem;                                  /* Text size */
+       background: white;                                /* White background */
+       color: black;                                     /* Black text */
+       border: 2px solid black;                          /* Black border */
+       border-radius: 8px;                               /* Rounded corners */
+       cursor: not-allowed;                              /* Grayed out mouse pointer */
+     }
