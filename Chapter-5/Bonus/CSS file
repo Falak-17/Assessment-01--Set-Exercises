@@ -1,0 +1,40 @@
+body { font-family: 'Segoe UI', sans-serif;          /* Use Segoe UI or a sans-serif fallback font */
+        margin: 0;                                   /* Remove default margin */
+        padding: 0;                                  /* Remove default padding */
+        background: url('background\ image.jpg');    /* Set a background image */
+        background-size: cover;                      /* Make background image cover the whole page */
+        text-align: center;                          /* Center-align text */
+        color: #fff;                                 /* Set default text color to white */
+     }
+
+h1 { font-size: 28px;                                /* Set font size (redundant with the next line) */
+     background-color: white;                        /* Set background color to white */
+     color: rgb(157, 25, 52);                        /* Set text color to a crimson-like red */
+     margin: 0;                                      /* Remove default margin */
+     padding: 10px;                                  /* Add padding around the heading */
+     font-size: 1.8rem;                              /* Set font size using relative units */
+   }
+
+.grid { display: grid;                               /* Use CSS Grid layout */
+        grid-template-columns: repeat(3, 1fr);       /* Create 3 equal-width columns */
+        gap: 20px;                                   /* Add 20px spacing between items */
+        padding: 40px;                               /* Add padding around the grid */
+        justify-items: center;                       /* Center items horizontally in each grid cell */
+      }
+
+.sample { width: 200px;                              /* Set button width */
+          height: 120px;                             /* Set button height */
+          border: none;                              /* Remove default border */
+          border-radius: 20px;                       /* Round the corners */
+          font-size: 1rem;                           /* Set base font size */
+          background: white;                         /* Set background color to white */
+          color: black;                              /* Set text color to black */
+          box-shadow: 4px 4px 0 #000;                /* Add a shadow offset to bottom-right */
+          cursor: pointer;                           /* Change cursor to pointer on hover */
+          transition: all 0.3s ease;                 /* Smooth transition for hover effects */
+       }
+
+.sample:hover { background: rgb(60, 53, 152);        /* Change background color to dark blue on hover */
+                color: white;                        /* Change text color to white on hover */
+                transform: scale(1.05);              /* Slightly enlarge the button on hover */
+              }
