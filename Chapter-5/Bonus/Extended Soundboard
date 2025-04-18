@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Audio Sampler</title>
+  <link rel="stylesheet" href="Bonus styles.css" />
+</head>
+<body>
+  <h1>Audio Sampler</h1>
+
+  <div class="wrapper">
+    <section class="audio-section">
+      <div id="sampleGrid" class="grid"></div>
+    </section>
+
+    <section class="tts-section">
+      <h2>Text to Speech</h2>
+      <textarea id="ttsInput" placeholder="Type your message..."></textarea>
+      <button id="speakBtn">Speak</button>
+      <p class="note"></p>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
