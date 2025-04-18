@@ -1,0 +1,41 @@
+const samples = [
+  { number: 10, title: "Ah-Ha", src: "ah-ha.mp3", duration: "1.4" },
+  { number: 11, title: "Dan", src: "dan.mp3", duration: "0.5" },
+  { number: 12, title: "Back of the net", src: "back-of-the-net.mp3", duration: "0.1" },
+  { number: 13, title: "Bang out of order", src: "bangoutoforder.mp3", duration: "0.5" },
+  { number: 14, title: "Email of the evening", src: "emailoftheevening.mp3", duration: "0.3" },
+  { number: 15, title: "Hello Partridge", src: "hellopartridge.mp3", duration: "0.1" },
+  { number: 16, title: "I ate scotchegg", src: "iateascotchegg.mp3", duration: "0.1" },
+  { number: 17, title: "I'm confused", src: "imconfused.mp3", duration: "0.1" }
+];
+
+const grid = document.getElementById("sampleGrid");
+
+function showSamples() {
+  grid.innerHTML = "";
+
+  samples.forEach(sample => {
+    const button = document.createElement("button");
+    button.className = "sample";
+    button.innerHTML = `
+      <span class="number">${sample.number}.</span><br/>
+      <strong>${sample.title}</strong><br/>
+      <span class="duration">${sample.duration}</span>
+    `;
+    button.addEventListener("click", () => {
+      const audio = new Audio(sample.src);
+      audio.play();
+    });
+    grid.appendChild(button);
+  });
+}
+
+document.getElementById("speakBtn").addEventListener("click", () => {
+  const text = document.getElementById("ttsInput").value;
+  if (text.trim() === "") return;
+
+  const message = new SpeechSynthesisUtterance(text);
+  speechSynthesis.speak(message);
+});
+
+showSamples();
