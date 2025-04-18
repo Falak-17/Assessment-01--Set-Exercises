@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Audio Sampler</title>
+  <link rel="stylesheet" href="Bonus styles.css" />
+</head>
+<body>
+  <h1>Audio Sampler</h1>
+
+  <div class="grid">
+    <button class="sample" onclick="document.getElementById('audio10').play()">
+      <span class="number">10.</span><br />
+      <strong>Ah-Ha</strong><br />
+      <span class="duration">1.4</span>
+    </button>
+    <audio id="audio10" src="ah-ha.mp3"></audio>
+
+    <button class="sample" onclick="document.getElementById('audio11').play()">
+      <span class="number">11.</span><br />
+      <strong>Dan</strong><br />
+      <span class="duration">0.5</span>
+    </button>
+    <audio id="audio11" src="dan.mp3"></audio>
+
+    <button class="sample" onclick="document.getElementById('audio12').play()">
+      <span class="number">12.</span><br />
+      <strong>Back of the net</strong><br />
+      <span class="duration">0.1</span>
+    </button>
+    <audio id="audio12" src="back-of-the-net.mp3"></audio>
+
+    <button class="sample" onclick="document.getElementById('audio13').play()">
+      <span class="number">13.</span><br />
+      <strong>bang out of the order</strong><br />
+      <span class="duration">0.5</span>
+    </button>
+    <audio id="audio13" src="bangoutoforder.mp3"></audio>
+
+    <button class="sample" onclick="document.getElementById('audio14').play()">
+      <span class="number">14.</span><br />
+      <strong>email of the evening</strong><br />
+      <span class="duration">0.3</span>
+    </button>
+    <audio id="audio14" src="emailoftheevening.mp3"></audio>
+
+    <button class="sample" onclick="document.getElementById('audio15').play()">
+      <span class="number">15.</span><br />
+      <strong>hello partridge</strong><br />
+      <span class="duration">0.1</span>
+    </button>
+    <audio id="audio15" src="hellopartridge.mp3"></audio>
+
+    <button class="sample" onclick="document.getElementById('audio16').play()">
+      <span class="number">16.</span><br />
+      <strong>i ate scotchegg</strong><br />
+      <span class="duration">0.1</span>
+    </button>
+    <audio id="audio16" src="iateascotchegg.mp3"></audio>
+
+    <button class="sample" onclick="document.getElementById('audio17').play()">
+      <span class="number">17.</span><br />
+      <strong>Im confused</strong><br />
+      <span class="duration">0.1</span>
+    </button>
+    <audio id="audio17" src="imconfused.mp3"></audio>
+    
+  </div>
+</body>
+</html>
