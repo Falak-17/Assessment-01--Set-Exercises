@@ -8,7 +8,7 @@
     
 </head>
 <body>
-    <h1>Nature Photography Gallery</h1>
+    <h1> Nature Photography Gallery </h1>
         <div class="box">
             <img src="Forest.jpg" alt="A beautiful green forest with sunlight filtering through the trees" title="Serene Forest Scene">
             <p class="title">Serene Forest Scene</p>
