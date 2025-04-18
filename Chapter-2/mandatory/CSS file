@@ -40,7 +40,6 @@ footer {
     padding: 20px;                                                        /* Adds padding inside the box */
     width: 96%;                                                           /* Makes the box responsive, taking up 96% of available width */
     max-width: 1700px;                                                    /* Ensures the box does not exceed 1700px in width */
-    background-image: url("image 1.png");                                 /* Sets the background image */
     background-repeat: no-repeat;                                         /* Prevents the image from repeating */
     background-size: cover;                                               /* Ensures the image covers the entire box */
     background-position: center;                                          /* Centers the background image */
